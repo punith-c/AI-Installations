@@ -95,7 +95,7 @@ mkdir -p ~/SecurityWork/strix_workspace && cd ~/SecurityWork/strix_workspace
 rm -f ~/.strix/cli-config.json 2>/dev/null
 
 # Initiate the scan loop (Replace with your explicitly authorized target URL or directory)
-strix run --target https://abcd.in
+strix -t http________
 ```
 
 ### 3. Open the Visual Dashboard
